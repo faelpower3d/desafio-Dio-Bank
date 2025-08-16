@@ -21,6 +21,6 @@ export class CompanyAccount extends DioAccount {
         console.log("A empresa Depositou")
     }
     despsit2 = ():number=>{
-        return 2
+        return 1
     }
 }
