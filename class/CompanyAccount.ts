@@ -6,7 +6,7 @@ export class CompanyAccount extends DioAccount {
         super(name,accountNumber)
         this.loan=0
     }
-    getLoan = (loan:number):void=> {
+    setLoan = (loan:number):void=> {
         this.loan=loan        
         if(this.validadeStatus()){    
             console.log("saldo anterior ",this.getBalance())   
